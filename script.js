@@ -61,6 +61,7 @@ var blocks = setInterval(function() {
         game.appendChild(hole);    
         currentBlocks.push(counter);
         counter++;
+        document.getElementById("val").innerHTML = Math.max(0,(counter-9));
     }
     var characterTop = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
     var characterLeft = parseInt(window.getComputedStyle(character).getPropertyValue("left"));

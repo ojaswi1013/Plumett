@@ -8,6 +8,8 @@
     height: 500px;
     border: 1px solid black;
     margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
 }
 
 #character{
@@ -37,4 +39,17 @@
     position: relative;
     top: 100px;
     margin-top: -20px;
+}
+
+#score{
+    width: 400px;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+#val{
+    position: relative;
+    left: 100px;
+    top: -35px;
 }
